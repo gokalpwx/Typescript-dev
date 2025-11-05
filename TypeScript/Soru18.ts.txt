@@ -1,0 +1,11 @@
+type LastParameter<T> = T extends (...args: infer A) => any
+  ? A extends [...any[], infer L] ? L : never : never;
+
+
+const f1 = (a: string, b: number, c: boolean) => {};
+const f2 = (a: Date) => {};
+let p1: LastParameter<typeof f1> = true;
+let p2: LastParameter<typeof f2> = new Date();
+
+let errorP: LastParameter<typeof f1> = "string";
+console.log("Soru 18 Başarılı!", p1);
