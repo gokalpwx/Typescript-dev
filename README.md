@@ -2,7 +2,7 @@
 İki diziyi birleştiren generic fonksiyon yazdım
 -------------
 Soru 2
-Araç tipi kamyon ise `loadCargo` fonksiyonunu çalıştıracak kontrol ekledim
+Araç tipi kamyon ise loadCargO fonksiyonunu çalıştıracak kontrol ekledim
 ------------
 Soru 3
 Logger sınıfında log geçmişini private yapıp dışarıdan erişilemez hale getirdim
@@ -17,7 +17,7 @@ Search fonksiyonunu hem id hem isim ile çalışacak şekilde overload yaptım
 Veri saklamak için generic bir Memorycache sınıfı oluşturdum
 -------------
  Soru 7
-Kullanıcı bilgisini `Partial` kullanarak güncelledim ve readonlya döndürdüm.
+Kullanıcı bilgisini PartiAL kullanarak güncelledim ve readonlya döndürdüm.
 ----------
  Soru 8
 Rest parametrelerini kullanarak sayıların toplamını bulan fonksiyon yazdım
@@ -57,5 +57,6 @@ Dizinin içindeki eleman tipini çıkaran type yaptım
 --------------------
  Soru 20
 URL içindeki :param şeklindeki yerleri okuyup obje haline getiren type yazdım
+---------------------
 
 
