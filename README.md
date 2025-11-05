@@ -1,6 +1,6 @@
  Soru 1
 İki diziyi birleştiren generic fonksiyon yazdım
--------------
+------------
 Soru 2
 Araç tipi kamyon ise loadCargO fonksiyonunu çalıştıracak kontrol ekledim
 ------------
