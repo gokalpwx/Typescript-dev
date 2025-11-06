@@ -11,4 +11,3 @@ let el2: Flatten<Str> = "hello";
 let errorEl: Flatten<NumArray> = "string";
 
 console.log("Soru 19 Başarılı!", el1, el2);
-
