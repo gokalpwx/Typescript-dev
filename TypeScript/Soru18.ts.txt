@@ -12,3 +12,4 @@ let p2: LastParameter<typeof fn4> = new Date();
 let errorP: LastParameter<typeof fn3> = "string";
 
 console.log("Soru 18 Başarılı!", p1);
+
