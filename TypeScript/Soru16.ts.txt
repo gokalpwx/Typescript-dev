@@ -15,3 +15,4 @@ logID(postID);
 userID = postID;
 
 console.log("Soru 16 Başarılı!");
+
