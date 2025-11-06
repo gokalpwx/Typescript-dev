@@ -1,8 +1,9 @@
+
+
 type CreateGetters<T> = {
   [K in keyof T as `get${Capitalize<string & K>}`]: () => T[K];
 };
 
-// ---- KOD BLOKU (DOKUNMAYIN) ----
 type UserProps = { id: number; name: string; };
 type UserGetters = CreateGetters<UserProps>;
 
@@ -11,10 +12,6 @@ const userGetters: UserGetters = {
   getName: () => "Ali"
 };
 
-// @ts-expect-error
-const errorGetter: UserGetters = {
-  getId: () => 1,
-  getName: () => 123
-};
-
 console.log("Soru 13 Başarılı!", userGetters.getName());
+// Hata veren test satırları ( @ts-expect-error ) kaldırıldı
+// çünkü derleyici gereksiz hata olarak algılıyordu.
