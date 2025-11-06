@@ -4,6 +4,7 @@ type FilterUnion<T, U> = T extends U ? never : T;
 type AllStatus = 'pending' | 'active' | 'inactive' | 'deleted';
 type ActiveStatus = 'active' | 'pending';
 
+// 'AllStatus' içinden 'ActiveStatus' olanları çıkar
 type InactiveStatus = FilterUnion<AllStatus, ActiveStatus>;
 
 let status1: InactiveStatus = 'inactive';
